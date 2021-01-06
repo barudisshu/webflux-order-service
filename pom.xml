@@ -8,7 +8,7 @@
         <version>2.4.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.ericsson.cces</groupId>
+    <groupId>com.cplier</groupId>
     <artifactId>webflux-order-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>webflux-order-service</name>
