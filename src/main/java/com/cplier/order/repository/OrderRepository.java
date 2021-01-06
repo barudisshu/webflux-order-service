@@ -1,6 +1,6 @@
-package com.ericsson.cces.order.repository;
+package com.cplier.order.repository;
 
-import com.ericsson.cces.order.domain.Order;
+import com.cplier.order.domain.Order;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 
 public interface OrderRepository extends ReactiveCrudRepository<Order, Long> {

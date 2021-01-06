@@ -1,7 +1,7 @@
-package com.ericsson.cces.order.controller;
+package com.cplier.order.controller;
 
-import com.ericsson.cces.order.domain.Order;
-import com.ericsson.cces.order.service.OrderService;
+import com.cplier.order.domain.Order;
+import com.cplier.order.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

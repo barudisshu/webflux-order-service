@@ -1,7 +1,7 @@
-package com.ericsson.cces.order.service;
+package com.cplier.order.service;
 
-import com.ericsson.cces.order.domain.Order;
-import com.ericsson.cces.order.repository.OrderRepository;
+import com.cplier.order.repository.OrderRepository;
+import com.cplier.order.domain.Order;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;

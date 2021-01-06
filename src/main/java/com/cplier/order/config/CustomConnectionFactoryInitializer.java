@@ -1,4 +1,4 @@
-package com.ericsson.cces.order.config;
+package com.cplier.order.config;
 
 import io.r2dbc.spi.ConnectionFactory;
 import org.springframework.beans.factory.annotation.Qualifier;

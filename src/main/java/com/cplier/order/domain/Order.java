@@ -1,4 +1,4 @@
-package com.ericsson.cces.order.domain;
+package com.cplier.order.domain;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;

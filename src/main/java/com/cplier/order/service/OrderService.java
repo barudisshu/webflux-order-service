@@ -1,6 +1,6 @@
-package com.ericsson.cces.order.service;
+package com.cplier.order.service;
 
-import com.ericsson.cces.order.domain.Order;
+import com.cplier.order.domain.Order;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
