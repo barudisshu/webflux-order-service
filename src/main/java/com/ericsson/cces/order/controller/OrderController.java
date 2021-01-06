@@ -36,6 +36,15 @@ public class OrderController {
     return order.map(ResponseEntity::ok).defaultIfEmpty(ResponseEntity.notFound().build());
   }
 
+  @PutMapping("/order/{orderId}")
+  public Mono<ResponseEntity<Order>> updateOrderById(
+      @PathVariable Long orderId, @RequestBody Order order) {
+    return orderService
+        .updateOrder(orderId, order)
+        .map(ResponseEntity::ok)
+        .defaultIfEmpty(ResponseEntity.badRequest().build());
+  }
+
   @DeleteMapping("/order/{orderId}")
   public Mono<ResponseEntity<Void>> deleteOrderById(@PathVariable Long orderId) {
     return orderService

@@ -11,7 +11,7 @@ public class Order {
   @Id private Long id;
   private String name;
   private double price;
-  private ZonedDateTime time;
+  private ZonedDateTime time = ZonedDateTime.now();
 
   public Long getId() {
     return id;
